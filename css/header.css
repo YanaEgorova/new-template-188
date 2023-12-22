@@ -10,6 +10,10 @@ body.open-menu {
     align-items: center;
     justify-content: space-between;
 }
+.header__flex {
+    display: flex;
+    gap: 2rem;
+}
 .header__btn {
     font-family: var(--title-font);
     font-size: 1.8rem;
@@ -19,7 +23,7 @@ body.open-menu {
 }
 .cart__span-box {
     position: relative;
-    display: none;
+    display: flex;
 }
 .cart__span-box svg {
     display: block;
