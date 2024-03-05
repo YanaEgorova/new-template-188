@@ -2,7 +2,7 @@
     text-align: center;
     padding: 15rem 0;
 }
-.hero .title {
+.hero .title, .hero .text {
     margin-bottom: 2rem;
 }
 
@@ -70,11 +70,15 @@
     .hero {
         padding: 0;
         height: calc(90vh - 8rem);
-        background-color: var(--second-brand-color);
+        background-image: url('../img/bg.jpeg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
         display: flex;
         align-items: flex-end;
         padding: 0 3rem 3rem;
         position: relative;
+        text-align: left;
     }
     .hero .btn {
         background-color: var(--main-text-color);
@@ -90,9 +94,14 @@
         align-items: flex-end;
         justify-content: space-between;
         width: 100%;
+        background-color: var(--second-brand-color);
+        padding: 5rem 2rem 2rem;
     }
     .hero .title {
         margin-bottom: 0;
+    }
+    .hero .text {
+        margin-left: 0;
     }
     .hero .btn {
         margin: 0;
